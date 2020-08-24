@@ -12,7 +12,7 @@ public class firstScript {
         System.setProperty("webdriver.gecko.driver", "C:\\Users\\Devi\\Desktop\\geckodriver\\geckodriver.exe");
         WebDriver driver = new FirefoxDriver();
         String baseUrl = "https://www.toolsqa.com/";
-        System.out.println("branch project");
+        System.out.println("branch project***");
         driver.get(baseUrl);
         driver.close();
     }
